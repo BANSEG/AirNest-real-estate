@@ -4,7 +4,7 @@ import Search from '../components/Search'
 import EstateList from '../components/EstateList'
 import Mission from '../components/Mission'
 
-const Homepage = () => {
+const Home = () => {
   return (
     <div>
       <Hero />
@@ -15,4 +15,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Home;
