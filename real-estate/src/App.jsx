@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import Home from "./pages/Homepage.jsx"
+import Home from "./Pages/home.jsx";
 import EstateDetails from "./pages/EstateDetails.jsx";
 import Footer from "./components/Footer.jsx";
 import SignupPage from "./Pages/signup.jsx";
-import Login from "./pages/Login.jsx";
+import Login from "./Pages/Login.jsx";
 const App = () => {
   return (
     <div>
