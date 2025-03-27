@@ -1,20 +1,20 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 import Homepage from "./pages/Homepage.jsx";
-import EstateDetails from "/pages/EstateDetails.jsx";
+import EstateDetails from "./pages/EstateDetails.jsx";
 import Footer from "./components/Footer.jsx";
-import Signup from "./pages/signup.jsx";
-import Login from "./pages/login";
+import SignupPage from "./Pages/signup.jsx";
+import Login from "./pages/Login.jsx";
 const App = () => {
   return (
     <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/home/:id" element={<EstateDetails />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/Home/:id" element={<EstateDetails />} />
+        <Route path="/Signup" element={<SignupPage />} />
+        <Route path="/Login" element={<Login />} />
       </Routes>
       <Footer />
     </div>
