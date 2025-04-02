@@ -1,6 +1,8 @@
 import React from 'react'
 import mission_img from '../assets/villa2.jpg'
 
+
+
 const Mission = () => {
   return (
     <div className='flex flex-col lg:flex-row items-center justify-between px-10 lg:px-24 gap-10 mt-8'>
@@ -18,4 +20,4 @@ const Mission = () => {
   )
 }
 
-export default Mission
+export default Mission;

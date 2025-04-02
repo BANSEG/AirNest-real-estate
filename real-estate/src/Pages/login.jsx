@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavBar from "../components/Navbar";
 import SignupLogic from "../api/auth"; // You might want to rename this to LoginLogic
 
+
 const LoginPage = () => {
   const [formData, setFormData] = useState({
     email: '',
